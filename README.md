@@ -13,7 +13,7 @@ The design is structured as a scalable System-on-Chip (SoC) IP block driven by a
 ## Verification & Simulation
 Verified using a self-checking testbench (`tb_synth.v`) in Xilinx Vivado XSim validating synchronous reset, `IDLE` silence, step-by-step frequency modulation, mid-sequence `PAUSE` state retention, and seamless playback resume with 0 errors.
 
-![Simulation Waveform](waveform.png)
+![Simulation Waveform](waveform.png.png)
 
 ## How to Run in Vivado
 1. Add `tonegen.v`, `note_rom.v`, `sequencer.v`, and `synth_top.v` under **Design Sources** (set `synth_top` as Top).
